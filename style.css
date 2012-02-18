@@ -1,3 +1,5 @@
+@charset "iso-8859-1"
+
 /* Reset
 -------------------------------------------------------------- */
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;margin:0;padding:0;}
@@ -10,55 +12,74 @@ a img{border:none;}
 /* Page
 -------------------------------------------------------------- */
 body {
-    background: white;
-    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
-    text-shadow: #DFDFDF 1px 1px 0;
+    background: #F0F0F0;
+    font-family: "Helvetica", Arial, sans-serif;
+    text-align: center;
+    text-shadow: white 1px 1px 0;
 }   
 
-a { color: #36B; text-decoration: none; }
-a:hover { text-decoration: underline; }
-
 #container {
-    margin: 10px auto;
-    padding: 0;
-    width: 400px;
+    margin: 0px auto 35px;
+    width:825px;
+    padding-top: 10px;
 }
-#header {
-    margin-top: 140px;
-    width: 400px;
+
+#main {
+    line-height: .01;
 }
-#header .avatar {
-    border: 1px solid #DFDFDF;
-    float: left;
-    margin-right: 15px;
-    padding: 5px;
+
+#footer {
+    clear: both;
+    color: #CDB7B5;
+    font: 15px "Helvetica", Arial, sans-serif;
+    margin-top: 15px;
 }
-#header .avatar:hover {
+
+
+#elements a {
+    background: white;
     border: 1px solid #CCC;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 0 0 5px #FFF;
+    -moz-box-shadow: 0 0 5px #FFF;
+    -webkit-box-shadow: 0 0 5px #FFF;
+    color: #369;
+    font: 13px "Helvetica", Arial, sans-serif;
+    font-weight: bold;
+    float: left;
+    margin: 15px 20px 5px 0;
+    padding: 20px 10px 10px;
+    text-decoration: none;
+    width: 160px;
+}
 
-    box-shadow: 1px 1px 5px #999;
-    -moz-box-shadow: 1px 1px 5px #999;
-    -webkit-box-shadow: 1px 1px 5px #999;
-}
-#header .name {
-    font-size: 28px;
-    letter-spacing: -1px;
-    padding-top: 5px;
-}
-#header .dev {
-    color: #C00;
-    font-size: 18px;
-    margin-bottom: 5px;
+#footer, #footer a {
+    color: #8B7D7B;
+    text-decoration: none;
 }
 
-#projects {
-    list-style: none;
-    margin: 25px auto;
+#footer {
+    margin-top: 45px;
 }
-#projects li {
-    border-top: 1px solid #EFEFEF;
-    padding: 15px;
+#footer a {
+    margin: 0 10px;
 }
-#projects .first { 
-    border: none;
+#footer a:hover {
+    color: #000;
+}
+
+h1{
+    color: #001111;
+	font-size: 82px;
+    letter-spacing: -2px;
+}
+h2{
+    color: #8B7D7B;
+    font-size: 24px;
+    letter-spacing: 5px;
+    line-height: 1;
+    margin-bottom:45px;
+    text-transform: uppercase;
 }
