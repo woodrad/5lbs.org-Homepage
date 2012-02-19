@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<meta name="author" content="Mathew Woodyard">
+		<meta name="copyright" content="2011 Mathew Woodyard">
+		<meta name="description" content="5lbs.org | Mathew Woodyard">
+		<title>5lbs.org | Mathew Woodyard</title>
+
+		<link rel="stylesheet" href="style.css" type="text/css">
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+	</head>
+<body>
+	<div id="container"> 
+		<div id="main"> 
+			<h1>Mathew Woodyard</h1>
+			<h2>Student von Volkswirtschaftslehre und Statistik</h2>
+		</div>	
+
+		<div id="elements">
+
+			<a href="http://blog.5lbs.org">
+				<img src="img/wp.png" alt="Blog" />
+				<p>Meine Neuesten Gedanken</p>
+			</a>
+			
+			<a href="http://facebook.com/mwoodyard">
+				<img src="img/fb.png" alt="Facebook" />
+				<p>Finden Mich Bei Facebook</p>
+			</a>
+			
+			<a href="http://twitter.com/woodrad">
+				<img src="img/twit.png" alt="Twitter" />
+				<p>Folgen Mir Bei <br/> Twitter</p>
+			</a>
+			<a href="http://www.google.com/recaptcha/mailhide/d?k=01XRW-ilKwfnke1vB_a8b_Ig==&c=riTOhupE4L1XkWIBJgrF_EefWNGXLD0Hj-ddgeKAk70=">
+				<img src="img/mail.png" alt="Email" />
+				<p>Schicken Mir Einen <br /> Brief </p>
+			</a>
+
+		</div>
+
+		<div style="clear:both"></div>
+
+		<div id="footer">
+			|<a href="http://blog.5lbs.org/about-this-blogger">Über Mich</a> |
+			<a href="">Meiner Lebenslauf [Demnächst Verfügbar!]</a> |
+			<a href="http://www.google.com/recaptcha/mailhide/d?k=01XRW-ilKwfnke1vB_a8b_Ig==&c=riTOhupE4L1XkWIBJgrF_EefWNGXLD0Hj-ddgeKAk70=">Email</a>|
+			<a href="http://last.fm/user/timetracker">last.fm</a>|
+			<br />
+			<a href="index.html"> This Page In English</a>
+		</div>
+	</div>
+
+	
+	<!-- Google Analytics -->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-8216467-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+</body>
+</html>
