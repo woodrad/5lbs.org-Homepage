@@ -1,1 +1,1 @@
-This is a fork of excid3's "landing" project. It's the current HTML and CSS code to my homepage, http://5lbs.org, along with other files needed to make my web page load. All images taken from Wikicommons and are in the public domain.
+Archived version of the old 5lbs.org homepage. All images come fromm Wikicommons and are in the public domain.
